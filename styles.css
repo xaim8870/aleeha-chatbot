@@ -165,3 +165,30 @@
       opacity: 0.1;
       z-index: -1;
     }
+    @media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .chat-container {
+    padding: 1.2rem;
+  }
+
+  .input-area {
+    flex-direction: column;
+  }
+
+  input, select, button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .message-content {
+    font-size: 0.9rem;
+    padding: 0.8rem 1rem;
+  }
+}
