@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <title>Ask Aleeha </title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Decorative elements -->
+  <img src="https://example.com/floral-border.png" class="decoration" style="top: 0; left: 0; width: 200px;">
+  <img src="https://example.com/floral-border.png" class="decoration" style="bottom: 0; right: 0; transform: rotate(180deg); width: 200px;">
+
+  <div class="chat-container">
+    <div class="header-image">
+        <img src="images/PFP.jpg" alt="">
+    </div>
+    <h1>🌸 Ask Aleeha 💬</h1>
+    <div id="chatBox"></div>
+    <div class="input-area">
+      <!-- 
+                    Removed dropdown 
+       <select id="questionType" style="flex: 0.4;">
+        <option value="personal">📝 Personal</option>
+        <option value="personality">🎭 Personality</option>
+      </select>
+      -->
+      <input type="text" id="userInput" placeholder="Type your question..." />
+      <button onclick="getResponse()">Ask ➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
